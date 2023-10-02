@@ -1,7 +1,7 @@
 Here is an example of a Java code that does not set an HTTP Strict Transport Security (HSTS) header, leaving it vulnerable to man-in-the-middle attacks:
 
 ## 🥺 Vulnerable Code
-```
+```java
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -18,7 +18,7 @@ This code is vulnerable to man-in-the-middle attacks because it does not set an 
 
 ## 😎 Secure Code
 Here is a version of the same code that sets an HSTS header in a secure way:
-```
+```java
 
 import java.io.*;
 import javax.servlet.*;
