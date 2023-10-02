@@ -1,7 +1,7 @@
 Here is a vulnerable Java code snippet that is susceptible to XXE (XML External Entity) injection attacks:
 
 ## 🥺 Vulnerable Code
-```
+```java
 import java.io.StringReader;
 import javax.xml.parsers.DocumentBuilderFactory;
 import org.w3c.dom.Document;
@@ -27,7 +27,7 @@ In this vulnerable code snippet, we parse an XML document without disabling exte
 ## 😎 Secure Code
 Here is an example of a secure version of the code that properly disables external entity resolution:
 
-```
+```java
 import java.io.StringReader;
 import javax.xml.XMLConstants;
 import javax.xml.parsers.DocumentBuilderFactory;
