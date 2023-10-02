@@ -1,7 +1,7 @@
 Here is an example of vulnerable code that is susceptible to a Java Deserialization :
 
 ## 🥺 Vulnerable Code
-```
+```java
 import java.io.*;
 
 public class VulnerableDeserialization {
@@ -29,7 +29,7 @@ e.printStackTrace();
 In the vulnerable code above, we are deserializing an object from a file using ObjectInputStream. The problem is that this code does not validate or sanitize the data being deserialized. An attacker could potentially craft a malicious serialized object and inject harmful code or exploit the application.
 
 ## 😎 Secure Code
-```
+```java
 import java.io.*;
 
 public class SecureDeserialization {
