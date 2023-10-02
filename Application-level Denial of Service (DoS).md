@@ -1,7 +1,7 @@
 Here is an example of vulnerable code that is susceptible to a Application-level Denial of Service (DoS) Vulnerability:
 
 ## 🥺 Vulnerable Code 
-```
+```java
 import java.io.*;
 import java.net.*;
 
@@ -50,7 +50,7 @@ e.printStackTrace();
 In this vulnerable code, we have a simple server that accepts incoming connections and processes requests using a new thread for each connection. The vulnerability here is that it creates a new thread for each incoming connection without any rate limiting or resource management, which can lead to resource exhaustion if an attacker floods the server with connections.
 
 ## 😎 Secure Code 
-```
+```java
 import java.io.*;
 import java.net.*;
 import java.util.concurrent.*;
