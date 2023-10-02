@@ -1,7 +1,7 @@
 Here is an example of vulnerable code that is susceptible to an Insecure Password Reset Vulnerability :
 
 ## 🥺 Vulnerable Code
-```
+```java
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
@@ -44,7 +44,7 @@ System.out.println(response);
 In the vulnerable code snippet, the reset token is generated and sent directly in the response. This exposes the token to potential attackers, making it easy for them to reset the password of any user if they can intercept the response. This is a significant security risk.
 
 ## 😎 Secure Code 
-```
+```java
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
