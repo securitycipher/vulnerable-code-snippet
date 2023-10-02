@@ -1,7 +1,7 @@
 Here is an example of a Java code that does not set a Content Security Policy (CSP) header, leaving it vulnerable to injection attacks:
 
 ## 🥺 Vulnerable Code
-```
+```java
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -21,7 +21,7 @@ This code is vulnerable to injection attacks because it does not set a CSP heade
 ## 😎 Secure Code
 Here is a version of the same code that sets a CSP header in a secure way:
 
-```
+```java
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
