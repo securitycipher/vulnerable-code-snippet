@@ -1,7 +1,7 @@
 Here is an example of vulnerable code that is susceptible to a Host Header Injection Attack :
 
 ## 🥺 Vulnerable Code
-```
+```java
 import java.io.IOException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -23,7 +23,7 @@ In the vulnerable code snippet above:
 The resetPassword method takes an HTTP request and response as parameters and extracts the email parameter from the request.
 It constructs a password reset link by directly using the Host header from the HTTP request. This allows an attacker to manipulate the Host header and potentially redirect the password reset link to a malicious site.
 ## 😎 Secure Code
-```
+```java
 import java.io.IOException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
