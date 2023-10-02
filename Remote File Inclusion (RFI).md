@@ -1,7 +1,7 @@
 Here is an example of Java code that is vulnerable to Remote File Inclusion (RFI) attack:
 
 ## 🥺 Vulnerable Code
-```
+```java
 import java.io.*; 
 import java.net.*; 
 
@@ -22,7 +22,7 @@ in.close();
 ## 😎 Secure Code
 Here is a version of the same code that is secured against Remote File Inclusion (RFI) attack:
 
-```
+```java
 import java.io.*; 
 import java.net.*; 
 import java.util.regex.*; 
