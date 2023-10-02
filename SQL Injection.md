@@ -1,7 +1,7 @@
 Here is an example of Java code that is vulnerable to SQL Injection attack on productId parameter:
 
 ## 🥺 Vulnerable Code
-```
+```java
 String productId = request.getParameter("id");
 String query = "SELECT * FROM products WHERE id = " + productId;
 
@@ -19,7 +19,7 @@ This code is vulnerable to SQL injection attacks because it is directly concaten
 ## 😎 Secure Code
 To secure this code, you should use prepared statements with parameterized queries. This will prevent attackers from being able to inject malicious input into the query:
 
-```
+```java
 String productId = request.getParameter("id");
 String query = "SELECT * FROM products WHERE id = ?";
 
