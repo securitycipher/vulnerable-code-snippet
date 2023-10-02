@@ -1,7 +1,7 @@
 Here is an example of vulnerable code that is susceptible to a CORS Misconfiguration:
 
 ## 🥺 Vulnerable Code
-```
+```java
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -20,7 +20,7 @@ response.getWriter().write("This is a vulnerable resource.");
 In this vulnerable code snippet, we have a servlet that does not have proper CORS configuration. It sets the Access-Control-Allow-Origin header to "*" which means it allows any origin to access the resource. This is dangerous because it allows any website, including potentially malicious ones, to make cross-origin requests to this resource, which could lead to security vulnerabilities such as CSRF attacks.
 
 ## 😎 Secure Code 
-```
+```java
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
