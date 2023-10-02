@@ -1,7 +1,7 @@
 Here is an example of vulnerable code that is susceptible to a Unrestricted File Upload vulnerability :
 
 ## 🥺 Vulnerable Code
-```
+```java
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -41,7 +41,7 @@ response.getWriter().println("File uploaded successfully.");
 In this vulnerable code, there is no validation on the file type or any checks to ensure that the uploaded file is not malicious. An attacker can upload any file, including executable scripts, which can lead to server compromise.
 
 ## 😎 Secure Code
-```
+```java
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
