@@ -1,7 +1,7 @@
 Here is an example of vulnerable code for a profile update page that is susceptible to Stored Cross-site-Scripting (XSS) attacks:
 
 # 🥺 Vulnerable Code
-```
+```java
 public class ProfileServlet extends HttpServlet {
 protected void doPost(HttpServletRequest request, HttpServletResponse response) {
 String name = request.getParameter("name");
@@ -28,7 +28,7 @@ An attacker could exploit this vulnerability by submitting a form with malicious
 
 # 😎 Secure Code 
 To secure this code against XSS attacks, we can sanitize the user input by escaping special characters in the user input. Here is an example of how the code could be modified to do this:
-```
+```java
 public class ProfileServlet extends HttpServlet {
 protected void doPost(HttpServletRequest request, HttpServletResponse response) {
 
