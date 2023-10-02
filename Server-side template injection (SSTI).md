@@ -1,7 +1,7 @@
 Here is an example of vulnerable code that is susceptible to a Server-side template injection (SSTI) Vulnerability :
 
 ## 🥺 Vulnerable Code
-```
+```java
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -21,7 +21,7 @@ return "greeting";
 In the vulnerable code snippet above, user input (name) is directly concatenated into the template without proper validation or sanitization. An attacker could potentially exploit this by injecting malicious template code, leading to SSTI.
 
 ## 😎 Secure Code
-```
+```java
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
