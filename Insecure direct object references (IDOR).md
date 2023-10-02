@@ -1,7 +1,7 @@
 Here is an example of code that is vulnerable to IDOR (Insecure Direct Object Reference) vulnerability:
 
 ## 🥺 Vulnerable Code
-```
+```java
 // This code allows the user to view a list of accounts by specifying the account ID in the URL parameter 
 String accountId = request.getParameter("accountId"); 
 Account account = accountDao.getAccountById(accountId); 
@@ -11,7 +11,7 @@ This code is vulnerable because it does not properly verify that the user has th
 
 ## 😎 Secure Code
 To secure this code, we can add a check to verify that the user has the necessary permissions before displaying the account information:
-```
+```java
 String accountId = request.getParameter("accountId"); 
 Account account = accountDao.getAccountById(accountId); 
 
