@@ -1,7 +1,7 @@
 Here is an example of a Java code that is vulnerable to Cross-Site Request Forgery (CSRF) attacks:
 
 ## 🥺 Vulnerable Code
-```
+```java
 import java.io.*; 
 import javax.servlet.*; 
 import javax.servlet.http.*; 
@@ -29,7 +29,7 @@ This code is vulnerable to CSRF attacks because it does not include any protecti
 ## 😎 Secure Code
 Here is a version of the same code that is secured against CSRF attacks:
 
-```
+```java
 import java.io.*; 
 import javax.servlet.*; 
 import javax.servlet.http.*; 
