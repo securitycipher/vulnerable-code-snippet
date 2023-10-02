@@ -1,7 +1,7 @@
 Here is a vulnerable Java code snippet that is susceptible to a Weak Password Policy :
 
 ## 🥺 Vulnerable Code
-```
+```java
 import java.util.regex.*;
 
 public class WeakPasswordPolicy {
@@ -17,7 +17,7 @@ This code enforces a password policy that requires the password to be at least 8
 ## 😎 Secure Code 
 Here is a version of the same code that enforces a stronger password policy:
 
-```
+```java
 import java.util.regex.*;
 
 public class StrongPasswordPolicy {
