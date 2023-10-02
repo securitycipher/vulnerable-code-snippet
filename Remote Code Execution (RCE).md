@@ -1,7 +1,7 @@
 Here is an example of Java code that is vulnerable to Remote Code Execution (RCE) attack.
 
 ## 🥺 Vulnerable Code
-```
+```java
 import java.io.*;
 
 public class RCE {
@@ -22,7 +22,7 @@ The program uses the “Runtime.getRuntime().exec()” method to execute a syste
 ## 😎 Secure Code
 Here is a version of the same code that is secured against Remote Code Execution (RCE) attack:
 
-```
+```java
 import java.io.*;
 import java.util.regex.*;
 
