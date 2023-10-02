@@ -1,7 +1,7 @@
 Here is an example of Java code that is vulnerable to Clickjacking attack.
 
 ## 🥺 Vulnerable Code
-```
+```java
 import java.io.*; 
 import javax.servlet.*; 
 import javax.servlet.http.*; 
@@ -22,7 +22,7 @@ This code is vulnerable to clickjacking attacks because it does not set any head
 ## 😎 Secure Code
 Here is a version of the same code that is secured against clickjacking attack:
 
-```
+```java
 import java.io.*; 
 import javax.servlet.*; 
 import javax.servlet.http.*; 
