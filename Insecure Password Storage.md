@@ -1,7 +1,7 @@
 Here is an example of vulnerable code that is susceptible to an Insecure Password Storage Practice Vulnerability :
 
 ## 🥺 Vulnerable Code
-```
+```java
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.sql.Connection;
@@ -38,7 +38,7 @@ e.printStackTrace();
 In the vulnerable code above, the plain text password is stored directly in the database, which is highly insecure. If an attacker gains access to the database, they can easily obtain the user’s passwords.
 
 ## 😎 Secure Code
-```
+```java
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
