@@ -1,7 +1,7 @@
 Here is an example of vulnerable code that is susceptible to a Serer-Side Request Forgery attack:
 
 ## 🥺 Vulnerable Code
-```
+```java
 import java.net.*;
 import java.io.*;
 
@@ -32,7 +32,7 @@ This code takes a URL as input from the user and sends an HTTP GET request to it
 ## 😎 Secure Code 
 Here is a version of the same code that is secured against SSRF attacks:
 
-```
+``` java
 import java.net.*;
 import java.io.*;
 import java.util.regex.*;
