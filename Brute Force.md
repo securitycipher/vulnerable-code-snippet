@@ -1,7 +1,7 @@
 Here is an example of vulnerable code that is susceptible to Brute Force on Login Page attack:
 
 ## 🥺 Vulnerable Code
-```
+```java
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -35,7 +35,7 @@ This code is vulnerable to brute-force attacks because it does not have any prot
 ## 😎 Secure Code
 Here is a version of the same code that is secured against brute-force attacks:
 
-```
+```java
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
