@@ -1,7 +1,7 @@
 Here is an example of vulnerable code that is susceptible to DOM-based cross-site scripting (XSS) attack:
 
 ## 🥺 Vulnerable Code
-```
+```java
 String userInput = request.getParameter("input");
 String output = "You entered: " + userInput;
 document.getElementById("output").innerHTML = output;
@@ -11,7 +11,7 @@ This code takes the user’s input, which is obtained from an HTTP request, and 
 ## 😎 Secure Code
 To secure this code against DOM-based XSS attacks, you can sanitize the user input by HTML-escaping it before assigning it to the inner HTML of the element. Here is an example of how you could do this:
 
-```
+```java
 import org.owasp.html.HtmlPolicyBuilder;
 import org.owasp.html.PolicyFactory;
 
