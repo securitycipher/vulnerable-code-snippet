@@ -1,7 +1,7 @@
 Here is an example of Java code that is vulnerable to Local File Inclusion (LFI) attack:
 
 ## 🥺 Vulnerable Code
-```
+```java
 import java.io.FileInputStream;
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -33,7 +33,7 @@ This line of code takes the value of the “file” parameter in the request and
 ## 😎 Secure Code
 Here is a secure version of the same code that prevents LFI attack:
 
-```
+```java
 import java.io.FileInputStream; 
 import java.io.FileNotFoundException; 
 import java.io.IOException; 
