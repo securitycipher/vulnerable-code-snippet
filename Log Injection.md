@@ -1,7 +1,7 @@
 Here is an example of a vulnerable Java code that is prone to log injection attacks:
 
 ## 🥺 Vulnerable Code
-```
+```java
 public void logUserAction(String username, String action) { 
 // The following line is vulnerable to log injection attacks 
 logger.info("User " + username + " performed action: " + action); }
@@ -11,7 +11,7 @@ This code is vulnerable because the “username” and “action” variables ar
 ## 😎 Secure Code
 To secure this code against log injection attacks, we can sanitize the “username” and “action” variables before including them in the log message:
 
-```
+```java
 public void logUserAction(String username, String action) { 
 
 // Sanitize the input to prevent log injection attacks 
