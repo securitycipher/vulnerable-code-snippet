@@ -1,7 +1,7 @@
 Here is a vulnerable Java code snippet that is susceptible to an Open Redirection attack: 
 
 ## 🥺 Vulnerable Code
-```
+```java
 String redirectUrl = request.getParameter("url");
 response.sendRedirect(redirectUrl);
 ```
@@ -10,7 +10,7 @@ This code takes a URL parameter from an HTTP request and redirects the user to t
 ## 😎 Secure Code 
 To secure this code against open redirect attacks, you can validate the URL parameter before redirecting the user. Here is an example of how you could do this:
 
-```
+```java
 import java.net.MalformedURLException;
 import java.net.URL;
 
