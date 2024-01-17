@@ -18,5 +18,5 @@ Feel free to contribute additional code snippets for different security vulnerab
 - [GitHub](https://github.com/securitycipher)
 - [Website](https://securitycipher.com)
 - [Telegram](https://t.me/dailybountywriteup)
-- [Discord](https://discord.gg/PvybGwfE)
+- [Discord](https://discord.gg/C5qSP77kS3)
 - [LinkedIn](https://www.linkedin.com/in/piyush-kumawat/)
