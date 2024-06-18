@@ -2,7 +2,7 @@
 Welcome to this repository containing vulnerable code snippets for various security vulnerabilities. The purpose of this repository is to help educate developers and security enthusiasts about common security flaws and how to mitigate them. 😈
 
 ## Web Link
-https://securitycipher.com/docs-category/secure-code/
+https://securitycipher.com/docs/security-resources/secure-code-explain
 
 ## Maintainer
 
