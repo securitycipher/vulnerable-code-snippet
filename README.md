@@ -2,8 +2,7 @@
 Welcome to this repository containing vulnerable code snippets for various security vulnerabilities. The purpose of this repository is to help educate developers and security enthusiasts about common security flaws and how to mitigate them. 😈
 
 ## Web Link
-https://securitycipher.com/docs/security-resources/secure-code-explain
-
+https://securitycipher.com/docs/security/secure-code-explain/
 ## Maintainer
 
 This project is developed and maintained by [Piyush Kumawat](https://www.linkedin.com/in/piyush-kumawat). Feel free to reach out to me for any issues, concerns, or contributions. Your feedback and contributions are highly appreciated!
